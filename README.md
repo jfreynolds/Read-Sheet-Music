@@ -7,7 +7,7 @@ dilate. Using the now isolated staff lines, it calculates the average y coordina
 with the notes coordinate values in order to try and guess what note it is.
 
 ## Example ##
-![Starting Image](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/src.pngi)
+![Starting Image](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/src.png)
 
 ![Isolated Staff Lines](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedStaffLines.png)
 
