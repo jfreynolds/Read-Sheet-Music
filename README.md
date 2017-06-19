@@ -7,13 +7,20 @@ dilate. Using the now isolated staff lines, it calculates the average y coordina
 with the notes coordinate values in order to try and guess what note it is.
 
 ## Example ##
+
+Starting Image
+
 ![Starting Image](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/src.png)
+
+Binarized Image of Isolated Staff Lines
 
 ![Isolated Staff Lines](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedStaffLines.png)
 
 Although the beam connecting the ascending eighth notes is kept in the image of the isolated staff
 lines, it is ignored when finding the coordinates of the lines using the Hough Lines Algorithm,
 which searches for lines of a minimum length.
+
+Isolated Notes
 
 ![Isolated Notes](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedNotes.png)
 
