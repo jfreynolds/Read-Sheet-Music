@@ -7,15 +7,15 @@ dilate. Using the now isolated staff lines, it calculates the average y coordina
 with the notes coordinate values in order to try and guess what note it is.
 
 ## Example ##
-![Starting Image](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/src.png)
+![Starting Image](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/src.png, "Starting Image")
 
-![Isolated Staff Lines](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedStaffLines.png)
+![Isolated Staff Lines](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedStaffLines.png, "Isolated Staff Lines")
 
 Although the beam connecting the ascending eighth notes is kept in the image of the isolated staff
 lines, it is ignored when finding the coordinates of the lines using the Hough Lines Algorithm,
 which searches for lines of a minimum length.
 
-![Isolated Notes](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedNotes.png)
+![Isolated Notes](https://github.com/jfreynolds/Read-Sheet-Music/blob/master/images/isolatedNotes.png, "Isolated Notes")
 
 ## Ideas going forward: ##
 * Use mean shift algorithm to find center of note
