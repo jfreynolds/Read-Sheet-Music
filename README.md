@@ -7,5 +7,5 @@ dilate. Using the now isolated staff lines, it calculates the average y coordina
 with the notes coordinate values in order to try and guess what note it is.
 
 **Ideas going forward:**
-*Use mean shift algorithm to find center of note
-*Compare note coordinate with staff line coordinate to guess note
+* Use mean shift algorithm to find center of note
+* Compare note coordinate with staff line coordinate to guess note
